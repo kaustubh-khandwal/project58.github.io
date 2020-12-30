@@ -11,6 +11,7 @@ body {
 
 h1 {
     font-family: Lobster;
+    font-size: 30px;
 }
 
 #dd {
@@ -45,35 +46,51 @@ h1 {
 }
 
 .lists:hover {
-    background-color:aquamarine;
+    background-color: aquamarine;
     font-family: Lobster;
     color: white;
 }
 
 #sec1 {
-    width:1300px;
-    height:600px;
-    background-color: linear-gradient (red 0%,yellow 100%);
+    width: 1300px;
+    height: 600px;
+    background-color: linear-gradient (red 0%, yellow 100%);
     font-family: Architects Daughter;
     font-size: 20px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-#sec2{
-    width:1300px;
-    height:600px;
+
+#sec2 {
+    width: 1300px;
+    height: 600px;
     background-color: yellowgreen;
     font-family: Architects Daughter;
     font-size: 20px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.d{
+
+.d {
     font-family: Architects Daughter;
 }
-#head{
+
+#head {
     margin-top: 100px;
 }
-a{
+
+a {
     text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
 }
