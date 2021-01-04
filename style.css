@@ -23,24 +23,28 @@ h1 {
     font-family: Architects Daughter;
 }
 
+#div1 menu {
+    text-align: center;
+    width: 100%;
+    }
+
 .menu {
-    list-style: none;
-    font-family: monospace;
     position: fixed;
-    top: 10px;
-    right: 30px;
+   width: 100%;
+    background: yellow;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
+    text-align: center;
 }
 
 .lists {
-    float: left;
+    display: block;
     text-decoration: none;
+    display: inline-block;
     color: chocolate;
-    padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
-    padding-bottom: 5px;
     font-family: fantasy;
     font-size: 20px;
 }
@@ -93,4 +97,9 @@ img {
 
 img:hover {
     transform: scale(0.9);
+}
+
+.imger {
+    width: 400px;
+    height: 500px;
 }
