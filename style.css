@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: cyan;
+    background-color: yellowgreen;
 }
 
 .imgers {
@@ -68,11 +68,9 @@ h1 {
 #sec2 {
     width: 1300px;
     height: 600px;
-    background-color: yellowgreen;
     font-family: Architects Daughter;
     font-size: 20px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    text-align: center;
 }
 
 .d {
@@ -102,4 +100,8 @@ img:hover {
 .imger {
     width: 400px;
     height: 500px;
+}
+#ifram1{
+    background-color:brown;
+    border-width: thick;
 }
